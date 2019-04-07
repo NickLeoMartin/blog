@@ -2,12 +2,12 @@
 
 module.exports = {
   url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Blog by Nick Leo Martin',
+  subtitle: 'Some thoughts on the growing synergy between Man & Machine.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   menu: [
     {
       label: 'Articles',
@@ -23,11 +23,11 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Nick Leo Martin',
+    photo: '/photo.png',
+    bio: 'Some thoughts on the growing synergy between Man & Machine.',
     contacts: {
-      email: '#',
+      email: 'nickleomartin@gmail.com',
       telegram: '#',
       twitter: '#',
       github: '#',
