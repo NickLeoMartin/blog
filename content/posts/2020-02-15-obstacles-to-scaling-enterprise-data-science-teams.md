@@ -2,7 +2,7 @@
 template: post
 title: Obstacles to Scaling Enterprise Data Science Teams
 slug: obstacles-to-scaling-enterprise-data-science-teams
-draft: true
+draft: false
 date: 2020-02-15T19:09:41.300Z
 description: >-
   Leading a small Data Science team has its fair share of challenges: mounting
