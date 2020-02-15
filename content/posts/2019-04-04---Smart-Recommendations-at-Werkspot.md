@@ -1,16 +1,19 @@
 ---
+template: post
 title: Smart Recommendations at Werkspot
-date: "2019-04-04T23:46:37.121Z"
-template: "post"
-draft: false
-slug: "/posts/smart-recommendations-at-werkspot/"
-category: "Machine Learning"
+slug: /posts/smart-recommendations-at-werkspot/
+draft: true
+date: '2019-04-04T23:46:37.121Z'
+description: >-
+  Werkspot strives to become the easiest and most reliable way to arrange home
+  services online. Machine Learning is pivotal to matching consumer needs with
+  skilled professionals.
+category: Machine Learning
 tags:
-  - "Machine Learning"
-  - "Data Science"
-  - "Artificial Intelligence"
-  - "Recommender Systems"
-description: "Werkspot strives to become the easiest and most reliable way to arrange home services online. Machine Learning is pivotal to matching consumer needs with skilled professionals."
+  - Machine Learning
+  - Data Science
+  - Artificial Intelligence
+  - Recommender Systems
 ---
 
 ![](/media/werkspot.jpg)
