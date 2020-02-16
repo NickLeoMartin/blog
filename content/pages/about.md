@@ -4,4 +4,6 @@ title: About me
 slug: about-me
 draft: true
 ---
-Freelance Senior Data Scientist with expertise in recommendations & Natural Language Processing
+I am on a journey to become a Machine Learning expert that builds robust and scalable products to delight end users. 
+
+I am a generalist  with  a track record of building successful Natural Language Processing  and recommender systems.
