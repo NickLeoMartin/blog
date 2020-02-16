@@ -1,8 +1,6 @@
 ---
-template: page
-title: About me
-slug: about
-draft: false
+title: "About me"
+template: "page"
 ---
 I am on a journey to become a Machine Learning expert that builds robust and scalable products to delight end users. 
 
