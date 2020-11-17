@@ -21,13 +21,18 @@ Let's assume we have an agent-based, statistical model. The human is the agent -
 
 * A historical sequence of work experiences (decisions) and the level of fulfilment they induced (rewards).
 * A future sequence of work experiences (decisions) with unknown levels of fulfilment (rewards). 
-* An internal value function that learns to anticipate the level of fulfilment (rewards) associated with possible work experiences (decisions).
+* An internal value function that learns to anticipate the level of fulfilment (rewards) associated with future work experiences (decisions).
+* A decision-making process that sequentially chooses work experiences to maximise the total estimated fulfilment, given by the internal value function.
 
-If we zoom out, we can see that this agent is moving along an enormous probability tree
+We can visualise this agent as moving along the nodes of an enormous probability tree.
 
-![](/media/decision-trees-2.png)
+![](/media/deep-roots-1024x576-1024x585.jpg)
 
-So how does the agent make good decisions about its future? It's goes about exploring options and better improving its estimation of internal value  seeks to maximise the total reward.
+So how does our agent make "good" decisions about its future? Ideally it knows the space of all possible branches. Secondly, it needs to get really good at estimating its internal value function associated with different tree branches.
+
+(continue here)
+
+It's goes about exploring options and better improving its estimation of internal value seeks to maximise the total reward.
 
 Note: if you want to give this process a name you can call it a partially observable markov decision process or POMDP for short.
 
@@ -53,6 +58,12 @@ To learn from biased data we need to identify it and correct for it.
 5. We have incomplete historical information - our journey to the present contains bias.
 6. "Fulfillment" is a fuzzy, multi-variate concept.
 7. The outcome is a fuzzy one - there is significant noise.
+
+**4. Industrial Education & Labor pressures encourage depth-first search**
+
+Specialisation
+
+## Keep Calm & Cut Roots
 
 Whats missing?
 
