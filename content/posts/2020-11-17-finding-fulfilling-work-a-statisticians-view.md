@@ -24,11 +24,13 @@ Let's assume we have an agent-based, statistical model. The human is the agent -
 * An internal value function that learns to anticipate the level of fulfilment (rewards) associated with future work experiences (decisions).
 * A decision-making process that sequentially chooses work experiences to maximise the total estimated fulfilment, given by the internal value function.
 
-We can visualise this agent as moving along the nodes of an enormous probability tree.
+We can visualise this agent as moving along the nodes of an enormous probability tree where each fork in the tree is a decision to pursue one work experience or another.
 
 ![](/media/deep-roots-1024x576-1024x585.jpg)
 
-So how does our agent make "good" decisions about its future? Ideally it knows the space of all possible branches. Secondly, it needs to get really good at estimating its internal value function associated with different tree branches.
+So how does our agent make optimal decisions about its future? 
+
+Firstly, it knows the space of all possible work experiences - the whole tree. Secondly, it is really good at estimating the true reward associated with different work experiences using its internal value function . With these two sets of information the agent can project 
 
 (continue here)
 
