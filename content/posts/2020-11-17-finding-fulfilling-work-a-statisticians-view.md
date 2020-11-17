@@ -13,45 +13,50 @@ Approaching my mid-twenties, it dawned on me how undirected most people - they f
 
 Having experienced academia, startups, corporates and freelancing...
 
-## A model of fulfilment
+## An Agent-Based Model of Work-Induced Fulfilment
 
 I am a statistician. That gives me the right to take the inherent, causal complexity of the world and reduce it to background noise. Watch me wave my wand.
 
-Let's assume we have an agent-based, statistical model. The human is the agent - a decision-maker with a history of interactions, a future with choices to make and rewards associated with these choices. This agent has an internal value function that anticipates (predicts) the reward associated with different choices and seeks to maximise the total reward.
+Let's assume we have an agent-based, statistical model. The human is the agent - a sequential decision-maker with:
 
-By a history of interactions, I mean an experience of certain types of work and the level of fulfilment they induced.
+* A historical sequence of work experiences (decisions) and the level of fulfilment they induced (rewards).
+* A future sequence of work experiences (decisions) with unknown levels of fulfilment (rewards). 
+* An internal value function that learns to anticipate the level of fulfilment (rewards) associated with possible work experiences (decisions).
 
-So with this simple model we can begin to understand why finding fulfilling work is hard.
+If we zoom out, we can see that this agent is moving along an enormous probability tree
+
+
+
+So how does the agent make good decisions about its future? It's goes about exploring options and better improving its estimation of internal value  seeks to maximise the total reward.
+
+Note: if you want to give this process a name you can call it a partially observable markov decision process or POMDP for short.
+
+## Model ≠ Reality
+
+So let's throw what we know about the real world at our model and see what happens.
 
 **1. The objective is ill-defined**
 
-Fulfilment is a fuzzy, multi-variate, highly personalised metric. Many things go into determining your level of fulfilment - the amount of money you earn, the legacy of your upbringing, the perceived status of the job, the ability to make a difference, the ability to travel, your desire to learn new things versus exercise talent etc.
+Fulfilment is a fuzzy, multi-variate, highly personalised metric. Many things go into determining our level of fulfilment - the amount of money we earn, the legacy of our upbringing, the perceived status of the job, our ability to make a difference, our ability to travel, our desire to learn new things versus exercise talent etc.
+
+Ill-defined objectives are difficult to optimise. How can we constraint our definition of fulfilment to a low-dimensional and manageable measure.
 
 **2. The historical data is biased and incomplete**
 
 Our work history is the product of a chaotic process. Small changes to the initial conditions, a different school or friends group perhaps, would have led to us spiralling on some radically different journey. Couple this sensitivity to initial conditions with the [chain reaction of behaviour and subsequent self-justification](https://www.capitalideasonline.com/wordpress/the-pyramid-of-choice/) - now our historical data has sample bias.
 
+To learn from biased data we need to identify it and correct for it.
+
 **3. Our internal value function adapts and changes over time**
 
-
-
 4. Our historical data is lossy
-
-
-
-
-
-1. We have  incomplete historical information - our journey to the present contains bias.
-2. "Fulfillment" is a fuzzy, multi-variate concept.
-3. The outcome is a fuzzy one - there is significant noise.
-
-
+5. We have incomplete historical information - our journey to the present contains bias.
+6. "Fulfillment" is a fuzzy, multi-variate concept.
+7. The outcome is a fuzzy one - there is significant noise.
 
 Whats missing?
 
 \- Multi-agent environment 
-
-
 
 Our decision-making process is skewed by 
 
@@ -59,13 +64,7 @@ The task of finding fulfilling work is a decision-making system - it has inputs,
 
 Bad decision-making 
 
-
-
 Good decision-making
-
-
-
-
 
 My heuristics for choosing fulfilling work:
 
@@ -73,14 +72,10 @@ My heuristics for choosing fulfilling work:
 2. Am I collaborating with people I admire?
 3. Am I working on problems with meaning consequences?
 
-
-
 Notes:
 
 * Over the course of a 40 year full-time career, around 10,000 days will be devoted to "work". That's 70% of every year.
 * sequential decision making process with partially observable state (POMDP)
-
-
 
 **Finding Fulfilling Work as POMDP** 
 
