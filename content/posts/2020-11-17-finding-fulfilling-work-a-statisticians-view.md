@@ -25,7 +25,7 @@ Let's assume we have an agent-based, statistical model. The human is the agent -
 
 If we zoom out, we can see that this agent is moving along an enormous probability tree
 
-
+![](/media/decision-trees-2.png)
 
 So how does the agent make good decisions about its future? It's goes about exploring options and better improving its estimation of internal value  seeks to maximise the total reward.
 
