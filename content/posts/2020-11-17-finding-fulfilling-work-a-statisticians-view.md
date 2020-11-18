@@ -40,9 +40,9 @@ So let's throw what we know about the real world at our model and see what happe
 
 **1. The objective is ill-defined**
 
-Fulfilment is a fuzzy, multi-variate, highly personalised metric. Many things go into determining our level of fulfilment - the amount of money we earn, the legacy of our upbringing, the perceived status of the job, our ability to make a difference, our ability to travel, our desire to learn new things versus exercise talent etc.
+Fulfilment is a fuzzy, multi-variate, highly personalised function. Many things go into determining our level of fulfilment - the amount of money we earn, the legacy of our upbringing, the perceived status of the job, our ability to make a difference, our ability to travel, our desire to learn new things versus exercise talent etc.
 
-Ill-defined objectives are difficult to optimise. How can we constraint our definition of fulfilment to a low-dimensional and manageable measure.
+Ill-defined objectives are difficult to optimise. To make this tractable we need to constrain our definition of fulfilment to a low-dimensional and manageable measure.
 
 **2. The historical data is biased and incomplete**
 
@@ -50,20 +50,21 @@ Our work history is the product of a chaotic process. Small changes to the initi
 
 To learn from biased data we need to identify it and correct for it.
 
-**3. Our internal value function adapts and changes over time**
+**3. Our internal value function has to adapt and change over time**
 
-Our journey in the working world is often starts with achieving some level of financial independence that comes with mastery of revenue-generating skills. This is expressed in our model by an internal value function which is heavily weighted towards skill and monetary acquisition and less weighted towards travel, making a difference etc.
+Our journey into the working world often starts with achieving some level of financial independence that comes with mastery of revenue-generating skills. However a [well-documented phenomenon](https://www.nature.com/articles/s41562-017-0277-0) is that after humans achieve a threshold of income and financial security they tend to see diminishing returns in happiness (read: fulfilment) from additional income and prefer to trade it for leisure and other pursuits.
 
-A well-documented phenomenon is that after humans achieve a threshold of income and financial security they tend to see diminishing returns in happiness from additional income and prefer to trade it for leisure and other pursuits. This changes the composition of our value function.
+The task for our agent has suddenly become more complicated - the external reward of fulfilment is itself a non-deterministic, stochastic function.
 
+However all is not lost. If our agent can think probabilistically, introspect and update its self-knowledge then it can hope to make good-enough decisions in the face of an uncertain and shifting reward.
 
+**5. Our knowledge of the tree is conditionally dependent on our history**
 
-4. Our historical data is lossy
-5. We have incomplete historical information - our journey to the present contains bias.
-6. "Fulfillment" is a fuzzy, multi-variate concept.
-7. The outcome is a fuzzy one - there is significant noise.
+I know next to nothing about quantum gravity. This is because my knowledge of all possible future work experiences is conditionally dependent on my previous experiences. Similarly our agent, acting in the real-world, cannot have complete knowledge of the set of all possible choices at each moment in time.
 
-**5. Our trajectory is dependent on our history**
+**6. The tree is constantly growing and changing**
+
+New jobs, fields and work experiences are created all the time. 
 
 **4. Industrial Education & Labor pressures encourage depth-first search**
 
@@ -111,3 +112,11 @@ Each agent starts on their journey without being able to observe the
 has a history of encounters with different types of "work". The decisions to informed by their upbringing, schooling
 
 We use historical data to estimate the expected fulfilment of different work alternatives.
+
+
+
+**Legacy:**
+
+by an internal value function which is heavily weighted towards skill and monetary acquisition and less weighted towards travel, making a difference etc. This necessitates a change in the composition of our value function.
+
+What does it change to? Hard to say - preferences are individual and dependent on our historical trajectory. Each agent needs to introspect and update its weighting
