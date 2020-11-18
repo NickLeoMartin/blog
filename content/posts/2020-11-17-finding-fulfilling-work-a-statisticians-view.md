@@ -30,13 +30,9 @@ We can visualise this agent as moving along the nodes of an enormous probability
 
 So how does our agent make optimal decisions about its future? 
 
-Firstly, it knows the space of all possible work experiences - the whole tree. Secondly, it is really good at estimating the true reward associated with different work experiences using its internal value function . With these two sets of information the agent can project 
-
-(continue here)
+Firstly, it knows the space of all possible work experiences - the whole tree. Secondly, it is really good at estimating the true reward associated with different work experiences using its internal value function. With these two sets of information the agent can project forward and pick the branch with the highest total fulfilment.
 
 It's goes about exploring options and better improving its estimation of internal value seeks to maximise the total reward.
-
-Note: if you want to give this process a name you can call it a partially observable markov decision process or POMDP for short.
 
 ## Model ≠ Reality
 
@@ -56,10 +52,18 @@ To learn from biased data we need to identify it and correct for it.
 
 **3. Our internal value function adapts and changes over time**
 
+Our journey in the working world is often starts with achieving some level of financial independence that comes with mastery of revenue-generating skills. This is expressed in our model by an internal value function which is heavily weighted towards skill and monetary acquisition and less weighted towards travel, making a difference etc.
+
+A well-documented phenomenon is that after humans achieve a threshold of income and financial security they tend to see diminishing returns in happiness from additional income and prefer to trade it for leisure and other pursuits. This changes the composition of our value function.
+
+
+
 4. Our historical data is lossy
 5. We have incomplete historical information - our journey to the present contains bias.
 6. "Fulfillment" is a fuzzy, multi-variate concept.
 7. The outcome is a fuzzy one - there is significant noise.
+
+**5. Our trajectory is dependent on our history**
 
 **4. Industrial Education & Labor pressures encourage depth-first search**
 
