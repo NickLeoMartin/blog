@@ -15,9 +15,79 @@ Having experienced academia, startups, corporates and freelancing...
 
 During my years of building machine learning models, I picked up a trick or two. The one I will use today involves
 
-A trick I picked up during my years building machine learning models is to create a simple model and collide it with the real-world
+A trick I picked up during my years building machine learning models is to create a simple model and collide it with the real-world.
 
-## An Agent-Based Model of Work-Induced Fulfilment
+
+
+I have this problem - I lack a good mental model to make life decisions.
+
+## A Brutal Truth
+
+Statistical modellers are often faced with the challenge of creating systems that interacts with a complex world. This could be generating recommendations to influence user buying behaviour, predicting future fluctuations to better time the purchase of stocks or route planning for autonomous vehicles in high traffic.
+
+There is no hope that your statistical model will perfectly predict and flawlessly act in a complex world.
+
+So what can we do in response to this brutal truth?
+
+The pragmatic view is to create something that is "good enough". A system that can make informed decisions and act in a way that generates more upside and less cost than the next best alternative.
+
+## The Trick: Build A Stupidly Simple Model
+
+During my years of building and shipping statistical models that collided with the real world, I internalised an approach which is best summed up by "Gall's Law":
+
+> A complex system that works is invariably found to have evolved from a simple system that worked. 
+>
+> \
+>
+>
+> A complex system designed from scratch never works and cannot be patched up to make it work. 
+>
+> \
+>
+>
+> You have to start over with a working simple system.
+
+Begin with a stupidly simple model (SSM) that you would be embarrassed to show your friends. This model must capture core behaviour - imagine yourself squinting at the world and incorporating only the most prominent objects and dynamics.
+
+Then we take the SSM and collide it with the chaotic, real world and ask "what critical assumptions are violated by real world dynamics and would cause this model to make bad or irrational decisions?". Now we want to fold in this behaviour into our model - increasing predictive power at the cost of greater complexity.
+
+As we build out the model, it is important to validate your modelling decisions. We might go though several iterations of a model on paper but once we have something "good enough", we should evaluate it using real-world data. Benchmarking focuses the modeller on quantifying the gap between the model's performance and the necessary level of performance required to be "good enough". If the gap can be closed then the solution is technically feasible but for many problems this is simply not possible.
+
+**An example: Light as a wave versus light as a particle** 
+
+**Dynamic pricing as a queue**
+
+## So What
+
+Once I internalised this method of thinking, it dawned on me how it is both a method to build statistical models but also mental models.
+
+What I have described is a good approach for building statistical models but its use does not stop their.
+
+
+
+Reasoning up as probing tool
+
+****
+
+**Why do competitors exist**
+
+is my preferred approach to evolving successful models. However can also act as a probing tool to learn insights about the world.
+
+The use of models as a probing tool is the subject of this article.
+
+
+
+There are many ways that we acquire knowledge about the world: randomised controlled experiments, hearsay, media, news, 
+
+Much of our experiencial knowledge 
+
+is it easier to ask why won't this work vs create something 
+
+During my years of building machine learning models
+
+
+
+## A Simple Model of Experience-Induced Fulfilment
 
 I am a statistician. That gives me the right to take the inherent, causal complexity of the world and reduce it to background noise. Watch me wave my wand.
 
@@ -96,8 +166,6 @@ Notes:
 
 * Over the course of a 40 year full-time career, around 10,000 days will be devoted to "work". That's 70% of every year.
 * sequential decision making process with partially observable state (POMDP)
-
-
 
 **Legacy:**
 
