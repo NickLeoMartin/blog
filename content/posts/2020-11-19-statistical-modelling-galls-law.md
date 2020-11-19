@@ -1,11 +1,11 @@
 ---
 template: post
-title: Stupidly Simple Modelling
-slug: stupidly-simple-modelling
+title: The Evolution of a Stupidly Simple Model
+slug: the-evolution-of-a-stupidly-simple-model
 draft: true
 date: 2020-11-19T13:21:19.354Z
 description: .
-category: Work
+category: Modelling
 ---
 Statistical modellers are often faced with the challenge of creating systems that interacts with a complex world. This could be generating recommendations to influence user buying behaviour, predicting future fluctuations to better time the purchase of stocks or route planning for autonomous vehicles in high traffic.
 
@@ -79,32 +79,10 @@ The subtle power of this approach is its generality: you can apply it to any sys
 
 You can imagine any outcome as the result of a system, map the system with your evolving SSM and build a decision-making framework to influence that outcome.
 
-Each of these is the result of system of observable and unobservable causal relationships.
+In many cases, the exercise of evolving an SSM is enlightening and is tool in its own right.
 
-Another useful by-product of evolving an SSM is the generation of unexpected insights.
+Personally, this process of positing a model and probing why it will or won't work seems to surface a lot of my experiential knowledge. The act of "reasoning up" to a solution triggers intuition I have gained in other domains that would otherwise stay submerged. 
 
-Through this process of positing a model and probing "why won't it work? why will it work?", we engage our mind in a way that leverages our vast experiential knowledge of the world. This knowledge tends to be encoded in our intuition in specific domains - mostly sitting below consciousness. By bringing it to the level of conscious reasoning we are able to connect disparate domains for greater leverage.
+With the ride-hailing example, I drew from economic theory and traditional statistics. However this is largely because of my background. A computational biologist might have framed it as an agent-based population model. A robotics engineer might have applied structural equation modelling.
 
-Tool makers
-
-Occam's razor - easier to reason up then reduce down
-
-(example of leveraging intuition in new domains)
-
-Alternatives
-
-## 
-
-Some examples of outcomes in a business context:
-
-* The price you pay for an Uber ride
-* The recommendations you receive on Amazon
-* The value of a stock in 3 months
-
-Some examples of outcomes in your personal life:
-
-* Getting a promotion
-* Your dog urinating indoors (again)
-* Conceiving a child
-* Retiring at 30
-* Becoming an advanced surfer
+In my next article, I will apply stupidly simple modelling to the task of finding personal fulfilment.
