@@ -1,6 +1,6 @@
 ---
 template: post
-title: Finding Fulfilling Work - A Statistician's View
+title: (Draft) Finding Fulfilling Work - A Statistician's View
 slug: finding-fulfilling-work
 draft: true
 date: 2020-11-17T13:41:12.138Z
@@ -12,6 +12,10 @@ category: Work
 Approaching my mid-twenties, it dawned on me how undirected most people - they flutter from job-to-job, blown by the twin winds of circumstance and specialisation. I noticed this in my own thinking - how incidental my occupational decisions are.
 
 Having experienced academia, startups, corporates and freelancing...
+
+During my years of building machine learning models, I picked up a trick or two. The one I will use today involves
+
+A trick I picked up during my years building machine learning models is to create a simple model and collide it with the real-world
 
 ## An Agent-Based Model of Work-Induced Fulfilment
 
@@ -30,9 +34,7 @@ We can visualise this agent as moving along the nodes of an enormous probability
 
 So how does our agent make optimal decisions about its future? 
 
-Firstly, it knows the space of all possible work experiences - the whole tree. Secondly, it is really good at estimating the true reward associated with different work experiences using its internal value function. With these two sets of information the agent can project forward and pick the branch with the highest total fulfilment.
-
-It's goes about exploring options and better improving its estimation of internal value seeks to maximise the total reward.
+Firstly, it knows the space of all possible work experiences - the whole tree. Secondly, it is really good at estimating the true reward associated with different work experiences using its internal value function. With these two sets of information, the agent can project forward and pick the branch with the highest total fulfilment.
 
 ## Model ≠ Reality
 
