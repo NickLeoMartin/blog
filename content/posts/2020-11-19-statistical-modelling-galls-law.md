@@ -33,12 +33,6 @@ As we build out the model, it is important to validate your modelling decisions.
 
 (discarding your original model)
 
-**An example: Light as a wave versus light as a particle** 
-
-**Dynamic pricing as a queue**
-
-****
-
 ## **An Exercise in Stupidity: Dynamic Pricing for Ride-Hailing**
 
 One benefit of digitising ride-hailing is the transparency that comes with providing accurate upfront price estimations to riders and drivers. Indeed, the price of the trip is very influential on both the rider's demand and the driver's desire to supply.
@@ -47,19 +41,19 @@ A comparatively high price would reduce riders demand but increase the drivers w
 
 So how can we model this system of pricing?
 
-Let's assume there is only one route from "A" to "B". There are many riders that request trips at a consistent rate and many drivers that are either offline, waiting or in-transit with a rider. At $10 a ride, the consistent demand for trips is adequately supplied by just enough drivers.
+Let's assume there is only one route from "A" to "B". There are many riders that request trips at a consistent rate and many drivers that are either offline, waiting or in-transit with a rider. At $10 a ride, the consistent demand for trips is adequately supplied by just enough drivers, with a 3 minute waiting time. Drivers want to maximise the amount they earn for their time and will therefore become more active if prices increase. Riders will also accept higher prices to avoid high waiting times.
 
-Now we collide our model with the world - what happens if there is a big concert playing tonight downtown at "B" and rider demand spikes? 
+Now we collide our model with the world - _what happens if there is a big concert playing tonight downtown at "B" and rider demand spikes?_
 
-This violates our model's assumption that riders request at a consistent rate. Now we have many riders and not enough available drivers. We can quantify rider dissatisfaction using waiting times - the time between when they request a ride to when they are picked up by the driver. 
+This violates our model's assumption that riders request at a consistent rate. Now we have many riders and not enough available drivers. We can quantify rider dissatisfaction using waiting times - the time between when they request a ride to when they are picked up by the driver.
 
 In this example, rider waiting times are soaring to 30 minutes a trip because of the time it takes for the fixed number of drivers to take a rider from "A" to "B" and drive back to fetch another available rider.
 
 If we step back and squint, we can view this problem as a queue with riders lining up and being served at a certain rate by the pool of drivers. This is great luck because queues are well studied in the field of statistics!
 
-Running off to our library, we dust off our a tome on [Queuing Theory](https://en.wikipedia.org/wiki/Queueing_theory) and recognise that this is an M/M/c-type queue.
+Running off to our library, we dust off our a tome on [Queuing Theory](https://en.wikipedia.org/wiki/Queueing_theory) and recognise that this is an M/M/c-type queue (c=1 is our model). Now we can apply some maths and infer how many drivers we need to get the queue waiting times down to something reasonable (say 5 minutes).
 
-
+To get 
 
 
 
