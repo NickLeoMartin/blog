@@ -5,9 +5,8 @@ slug: /posts/the-evolution-of-a-stupidly-simple-model/
 draft: true
 date: 2020-11-19T18:18:50.685Z
 description: >-
-  There is no hope that your statistical model will perfectly predict and
-  flawlessly act in a complex world. So what can we do in response to this
-  brutal truth?
+  There is no hope that your statistical model will perfectly predict and act in
+  a complex world. So what can we do in response to this brutal truth?
 category: Modelling
 tags:
   - Statistics
@@ -16,7 +15,7 @@ tags:
 ---
 Statistical modellers are often faced with the challenge of creating systems that interacts with a complex world. This could be generating recommendations to influence user buying behaviour, predicting future fluctuations to better time the purchase of stocks or route planning for autonomous vehicles in high traffic.
 
-There is no hope that your statistical model will perfectly predict and flawlessly act in a complex world.
+There is no hope that your statistical model will perfectly predict and act in a complex world.
 
 So what can we do in response to this brutal truth?
 
