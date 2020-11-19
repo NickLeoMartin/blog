@@ -55,7 +55,7 @@ This violates our model's assumption that riders request at a consistent rate. N
 
 In this example, rider waiting times are soaring to 30 minutes a trip because of the time it takes for the fixed number of drivers to take a rider from "A" to "B" and drive back to fetch another available rider.
 
-If we step back and squint, we can view this problem as a queue with riders lining up and being served at a certain rate by the pool of drivers.
+If we step back and squint, we can view this problem as a queue with riders lining up and being served at a certain rate by the pool of drivers. This is great luck because queues are well studied in the field of statistics!
 
 
 
