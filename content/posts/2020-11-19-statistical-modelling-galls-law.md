@@ -73,12 +73,6 @@ Tool makers
 
 (example of leveraging intuition in new domains)
 
-
-
-
-
-
-
 ## A Simple Model of Experience-Induced Fulfilment
 
 I want to better understand how I can lead a happy, fulfilled life. The decisions I take over which experiences I I am going to suggest a model - that the paths I will take through life can be viewed
