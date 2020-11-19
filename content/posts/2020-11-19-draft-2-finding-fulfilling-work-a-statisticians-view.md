@@ -17,8 +17,6 @@ During my years of building machine learning models, I picked up a trick or two.
 
 A trick I picked up during my years building machine learning models is to create a simple model and collide it with the real-world.
 
-
-
 I have this problem - I lack a good mental model to make life decisions.
 
 ## A Brutal Truth
@@ -37,13 +35,7 @@ During my years of building and shipping statistical models that collided with t
 
 > A complex system that works is invariably found to have evolved from a simple system that worked. 
 >
-> \
->
->
 > A complex system designed from scratch never works and cannot be patched up to make it work. 
->
-> \
->
 >
 > You have to start over with a working simple system.
 
@@ -73,7 +65,7 @@ Some examples of outcomes in your personal life:
 * Retiring at 30
 * Becoming an advanced surfer
 
-Each of these is the result of system of observable and unobservable causal relationships. 
+Each of these is the result of system of observable and unobservable causal relationships.
 
 Another useful by-product of evolving an SSM is the generation of unexpected insights.
 
@@ -83,23 +75,11 @@ Tool makers
 
 (example of leveraging intuition in new domains)
 
-
-
-Reasoning up as probing tool
-
-**Why do competitors exist**
-
-The use of models as a probing tool is the subject of this article.
-
-
-
-There are many ways that we acquire knowledge about the world: randomised controlled experiments, hearsay, media, news, 
-
-Much of our experiencial knowledge 
-
-is it easier to ask why won't this work vs create something 
-
 ## A Simple Model of Experience-Induced Fulfilment
+
+I want to better understand how I can lead a happy, fulfilled life. The decisions I take over which experiences I I am going to suggest a model - that the paths I will take through life can be viewed
+
+**Previous**
 
 I am a statistician. That gives me the right to take the inherent, causal complexity of the world and reduce it to background noise. Watch me wave my wand.
 
@@ -203,10 +183,20 @@ has a history of encounters with different types of "work". The decisions to inf
 
 We use historical data to estimate the expected fulfilment of different work alternatives.
 
-
-
 Surfing example:
 
 Let's use surfing as an example. Most beginner surfers tend to make a common mistake - they position themselves at a part of the wave's face which does not have enough power. No wave power means no speed means no chance of standing up. Left to their own devices, novice surfers take some time to build up the intuition to take the wave near the "peak" - where the wave first starts to break and where the most force production occurs.
 
 Let's create a simple model of a surfer catching a wave. Firstly, we have a human with a board. A wave approaches. We freeze the wave in time at the point when it first starts to break. We note that the wave is steepest at the peak and then decreases in slope the further away from the peak we go........
+
+Reasoning up as probing tool
+
+**Why do competitors exist**
+
+The use of models as a probing tool is the subject of this article.
+
+There are many ways that we acquire knowledge about the world: randomised controlled experiments, hearsay, media, news, 
+
+Much of our experiencial knowledge 
+
+is it easier to ask why won't this work vs create something
