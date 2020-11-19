@@ -47,11 +47,17 @@ A comparatively high price would reduce riders demand but increase the drivers w
 
 So how can we model this system of pricing?
 
-Let's assume there is only one route from "A" to "B". There are many riders that request trips at a consistent rate and many drivers that are either offline, waiting or in-transit with a rider. At $10 a ride, the consistent demand is
+Let's assume there is only one route from "A" to "B". There are many riders that request trips at a consistent rate and many drivers that are either offline, waiting or in-transit with a rider. At $10 a ride, the consistent demand for trips is adequately supplied by just enough drivers.
 
-Now we collide our model with the world - what happens if there is a big concert playing tonight downtown at "B"? 
+Now we collide our model with the world - what happens if there is a big concert playing tonight downtown at "B" and rider demand spikes? 
 
-Rider demand will spike and we are going to have an under-supply of drivers. We can measure rider satisfaction using waiting times - the time between when they request a ride to when they are picked up by the driver.
+This violates our model's assumption that riders request at a consistent rate. Now we have many riders and not enough available drivers. We can quantify rider dissatisfaction using waiting times - the time between when they request a ride to when they are picked up by the driver. 
+
+In this example, rider waiting times are soaring to 30 minutes a trip because of the time it takes for the fixed number of drivers to take a rider from "A" to "B" and drive back to fetch another available rider.
+
+If we step back and squint, we can view this problem as a queue with riders lining up and being served at a certain rate by the pool of drivers.
+
+
 
 
 
