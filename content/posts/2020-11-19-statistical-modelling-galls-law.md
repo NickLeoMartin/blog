@@ -61,7 +61,7 @@ Mmm but what if we had set the price at $12 or $20?
 
 The former might have not reduced waiting times enough and the later may have killed rider demand in favour of other transport options. Perhaps if our system experiences regular demand shocks, we can learn how much we need to multiple the trip's price to engage more drivers and keep waiting times at an acceptable level. This is well-studied concept in economics, [price elasticity](https://en.wikipedia.org/wiki/Elasticity_(economics)), so our odds of doing this well seem strong.
 
-Our stupidly simple system has evolved to handle adaptive user behaviour. Pretty cool.
+Our stupidly simple system has evolved to handle adaptive user behaviour in our marketplace. Pretty cool.
 
 ## So What...
 
