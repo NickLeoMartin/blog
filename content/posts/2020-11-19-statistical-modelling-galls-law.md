@@ -49,7 +49,7 @@ This violates our model's assumption that riders request at a consistent rate. N
 
 In this example, rider waiting times are soaring to 30 minutes a trip because of the time it takes for the fixed number of drivers to take a rider from "A" to "B" and drive back to fetch another available rider.
 
-This is bad. Our model appears to be too brittle. We need to expand it to deal with these dynamics.
+This is bad. Our model appears to be brittle. We need to expand it to deal with these dynamics.
 
 If we step back and squint, we can view this problem as a queue with riders lining up and being served at a certain rate by the pool of drivers. This is great luck because queues are well studied in the field of statistics!
 
@@ -57,7 +57,11 @@ Running off to our library, we dust off our a tome on [Queuing Theory](https://e
 
 To get enough drivers active to meet demand, we will temporarily raise the price of trips from "A" to "B" to $15 and notify drivers of the 1.5x increase. According to our model, they will seek to maximise the amount they earn for their time and are incentivised to work now for $15 rather than $10 later. They start driving and waiting times will diminish.
 
-If we experience regular demand shocks, we can learn how much we need to raise the trip's price to keep waiting times at a manageable level. For example, we could have set the price at $12 or $20. The former might have not reduced waiting times enough and the later may have killed rider demand (i.e. rather take public transport).
+Mmm but what if we had set the price at $12 or $20?
+
+The former might have not reduced waiting times enough and the later may have killed rider demand in favour of other transport options. Perhaps if our system experiences regular demand shocks, we can learn how much we need to multiple the trip's price to engage more drivers and keep waiting times at an acceptable level. This is well-studied concept in economics, [price elasticity](https://en.wikipedia.org/wiki/Elasticity_(economics)), so our odds of doing this well seem strong.
+
+Our stupidly simple system has evolved to handle adaptive user behaviour. Pretty cool.
 
 ## So What...
 
