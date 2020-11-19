@@ -67,7 +67,9 @@ _World: "errr but how will this handle the infinite possible combinations of rou
 
 _(pauses to think and bite nails...)_
 
-Well...queues and price elasticity are only concerned with waiting times for riders and a pool of drivers. Geography is not critical, so we might as well define an arbitrary region and have the waiting times in that area represent one pool of drivers and one queue. We can be fancy with how we define a region, choosing a low or a high resolution, but ultimately all we are doing is horizontally scaling out the number of queues to encompass the globe.
+Well...queues are only concerned with waiting times for riders and the pool of drivers. Geography and route specifics are not critical. We might as well define an arbitrary "zone" and designate all activity in that "zone" to one queue (a city perhaps). We can be fancy with our definition, choosing a low or a high resolution, but ultimately all we are doing is horizontally scaling out the number of queues and price elasticity models to encompass the globe.
+
+This dance can go on and on. We still need to consider providing an estimate of the trip fare for an arbitrary route
 
 Our stupidly simple model has evolved to handle adaptive user behaviour in our marketplace. Pretty cool.
 
