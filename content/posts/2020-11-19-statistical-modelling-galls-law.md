@@ -4,7 +4,10 @@ title: The Evolution of a Stupidly Simple Model
 slug: the-evolution-of-a-stupidly-simple-model
 draft: true
 date: 2020-11-19T13:21:19.354Z
-description: .
+description: >-
+  There is no hope that your statistical model will perfectly predict and
+  flawlessly act in a complex world. So what can we do in response to this
+  brutal truth?
 category: Modelling
 ---
 Statistical modellers are often faced with the challenge of creating systems that interacts with a complex world. This could be generating recommendations to influence user buying behaviour, predicting future fluctuations to better time the purchase of stocks or route planning for autonomous vehicles in high traffic.
@@ -31,8 +34,6 @@ Then we take the SSM and collide it with the chaotic, real world and ask "what c
 
 As we build out the model, it is important to validate your modelling decisions. We might go though several iterations of a model on paper but once we have something "good enough", we should evaluate it using real-world data. Benchmarking focuses the modeller on quantifying the gap between the model's performance and the necessary level of performance required to be "good enough".
 
-(discarding your original model)
-
 ## **An Exercise in Stupidity: Dynamic Pricing for Ride-Hailing**
 
 One benefit of digitising ride-hailing is the transparency that comes with providing accurate upfront price estimations to riders and drivers. Indeed, the price of the trip is very influential on both the rider's demand and the driver's desire to supply.
@@ -43,7 +44,7 @@ So how can we model this system of pricing?
 
 Let's assume there is only one route from "A" to "B". There are many riders that request trips at a consistent rate and many drivers that are either offline, waiting or in-transit with a rider. At $10 a ride, the consistent demand for trips is adequately supplied by just enough drivers, with a 3 minute waiting time. Drivers want to maximise the amount they earn for their time and will therefore become more active if prices increase. Riders will also accept higher prices to avoid high waiting times. This is our SSM.
 
-Now we collide our model with the world.
+Now we collide our model with the world. Hello World.
 
 _World: "what happens if there is a big concert playing tonight downtown at "B" and rider demand spikes?"_
 
@@ -67,7 +68,7 @@ _World: "errr but how will this handle the thousands of different cities that ou
 
 _...pauses to think and bite nails..._
 
-Well...queues are only concerned with waiting times for riders and the pool of drivers. Price elasticity is only concerned with the pool of drivers. Geography is not critical. We might as well define an arbitrary "zone" and designate all activity in that "zone" to one queue (a city perhaps). We can be fancy with our definition, choosing a low or a high resolution, but ultimately all we are doing is horizontally scaling out the number of queues and price elasticity models to encompass the globe.
+Well...queues are only concerned with waiting times for riders and the pool of drivers. Price elasticity is only concerned with the pool of drivers and their response to price changes. Geography is not critical. We might as well define an arbitrary "zone" and designate all activity in that "zone" to one queue (a city perhaps). We can be fancy with our definition, choosing a low or a high resolution, but ultimately all we are doing is horizontally scaling out the number of queues and price elasticity models to encompass the globe.
 
 This dance can go on and on - we could consider how to price the fare for any arbitrary trip, decide how we match drivers to riders, plan the most efficient route for the driver etc.
 
@@ -75,11 +76,11 @@ The takeaway: our stupidly simple model has evolved to handle adaptive user beha
 
 ## So What...
 
-The subtle power of this approach is its generality: you can apply it to any system of interrelations.
+The power of this approach is its generality: you can apply it to any system of interrelations.
 
 You can imagine any outcome as the result of a system, map the system with your evolving SSM and build a decision-making framework to influence that outcome.
 
-In many cases, the exercise of evolving an SSM is enlightening and is tool in its own right.
+In many cases, the exercise of evolving an SSM is enlightening.
 
 Personally, this process of positing a model and probing why it will or won't work seems to surface a lot of my experiential knowledge. The act of "reasoning up" to a solution triggers intuition I have gained in other domains that would otherwise stay submerged. 
 
