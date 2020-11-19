@@ -1,7 +1,7 @@
 ---
 template: post
 title: '(Draft #2) Finding Fulfilling Work - A Statistician''s View'
-slug: draft-1-finding-fulfilling-work
+slug: draft-2-finding-fulfilling-work
 draft: true
 date: 2020-11-19T08:56:55.214Z
 description: >-
@@ -81,9 +81,7 @@ Through this process of positing a model and probing "why won't it work? why wil
 
 Tool makers
 
-Let's use surfing as an example. Most beginner surfers tend to make a common mistake - they position themselves at a part of the wave's face which does not have enough power. No wave power means no speed means no chance of standing up. Left to their own devices, novice surfers take some time to build up the intuition to take the wave near the "peak" - where the wave first starts to break and where the most force production occurs.
-
-Let's create a simple model of a surfer catching a wave. Firstly, we have a human with a board. A wave approaches. We freeze the wave in time at the point when it first starts to break. We note that the wave is steepest at the peak and then decreases in slope the further away from the peak we go........
+(example of leveraging intuition in new domains)
 
 
 
@@ -204,3 +202,11 @@ Each agent starts on their journey without being able to observe the
 has a history of encounters with different types of "work". The decisions to informed by their upbringing, schooling
 
 We use historical data to estimate the expected fulfilment of different work alternatives.
+
+
+
+Surfing example:
+
+Let's use surfing as an example. Most beginner surfers tend to make a common mistake - they position themselves at a part of the wave's face which does not have enough power. No wave power means no speed means no chance of standing up. Left to their own devices, novice surfers take some time to build up the intuition to take the wave near the "peak" - where the wave first starts to break and where the most force production occurs.
+
+Let's create a simple model of a surfer catching a wave. Firstly, we have a human with a board. A wave approaches. We freeze the wave in time at the point when it first starts to break. We note that the wave is steepest at the peak and then decreases in slope the further away from the peak we go........
