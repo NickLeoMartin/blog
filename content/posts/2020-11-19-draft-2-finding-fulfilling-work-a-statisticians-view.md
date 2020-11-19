@@ -77,7 +77,7 @@ Each of these is the result of system of observable and unobservable causal rela
 
 Another useful by-product of evolving an SSM is the generation of unexpected insights.
 
-Through this process of positing a model and probing "why won't it work?", we engage our mind in a way that leverages our vast experiential knowledge of the world. This knowledge tends to be encoded in our intuition in specific domains - mostly sitting below consciousness. By bringing it to the level of conscious reasoning we are able to connect disparate domains for greater leverage.
+Through this process of positing a model and probing "why won't it work? why will it work?", we engage our mind in a way that leverages our vast experiential knowledge of the world. This knowledge tends to be encoded in our intuition in specific domains - mostly sitting below consciousness. By bringing it to the level of conscious reasoning we are able to connect disparate domains for greater leverage.
 
 Tool makers
 
