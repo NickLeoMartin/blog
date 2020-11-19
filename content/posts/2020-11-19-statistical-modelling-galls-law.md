@@ -69,9 +69,9 @@ _(pauses to think and bite nails...)_
 
 Well...queues are only concerned with waiting times for riders and the pool of drivers. Geography and route specifics are not critical. We might as well define an arbitrary "zone" and designate all activity in that "zone" to one queue (a city perhaps). We can be fancy with our definition, choosing a low or a high resolution, but ultimately all we are doing is horizontally scaling out the number of queues and price elasticity models to encompass the globe.
 
-This dance can go on and on. We still need to consider providing an estimate of the trip fare for an arbitrary route
+This dance can go on and on - we could consider how to price the fare for any arbitrary trip, decide how we match drivers to riders, plan the most efficient route for the driver etc.
 
-Our stupidly simple model has evolved to handle adaptive user behaviour in our marketplace. Pretty cool.
+The takeaway: our stupidly simple model has evolved to handle adaptive user behaviour in our marketplace. Pretty cool.
 
 ## So What...
 
