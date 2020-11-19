@@ -97,6 +97,14 @@ Notes:
 * Over the course of a 40 year full-time career, around 10,000 days will be devoted to "work". That's 70% of every year.
 * sequential decision making process with partially observable state (POMDP)
 
+
+
+**Legacy:**
+
+by an internal value function which is heavily weighted towards skill and monetary acquisition and less weighted towards travel, making a difference etc. This necessitates a change in the composition of our value function.
+
+What does it change to? Hard to say - preferences are individual and dependent on our historical trajectory. Each agent needs to introspect and update its weighting
+
 **Finding Fulfilling Work as POMDP** 
 
 Most people would agree that the task of finding fulfilling work is a hard one.
@@ -114,11 +122,3 @@ Each agent starts on their journey without being able to observe the
 has a history of encounters with different types of "work". The decisions to informed by their upbringing, schooling
 
 We use historical data to estimate the expected fulfilment of different work alternatives.
-
-
-
-**Legacy:**
-
-by an internal value function which is heavily weighted towards skill and monetary acquisition and less weighted towards travel, making a difference etc. This necessitates a change in the composition of our value function.
-
-What does it change to? Hard to say - preferences are individual and dependent on our historical trajectory. Each agent needs to introspect and update its weighting
