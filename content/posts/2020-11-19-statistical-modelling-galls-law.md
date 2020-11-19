@@ -1,7 +1,7 @@
 ---
 template: post
-title: Statistical Modelling & Gall's Law
-slug: statistical-modelling-and-galls-law
+title: Stupidly Simple Modelling
+slug: stupidly-simple-modelling
 draft: true
 date: 2020-11-19T13:21:19.354Z
 description: .
