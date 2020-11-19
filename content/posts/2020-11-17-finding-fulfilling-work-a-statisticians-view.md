@@ -1,7 +1,7 @@
 ---
 template: post
-title: (Draft) Finding Fulfilling Work - A Statistician's View
-slug: finding-fulfilling-work
+title: '(Draft #1) Finding Fulfilling Work - A Statistician''s View'
+slug: draft-1-finding-fulfilling-work
 draft: true
 date: 2020-11-17T13:41:12.138Z
 description: >-
