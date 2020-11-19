@@ -75,23 +75,9 @@ The takeaway: our stupidly simple model has evolved to handle adaptive user beha
 
 ## So What...
 
-The subtle power of this approach is in its generality: you can apply it to any system of interrelations.
+The subtle power of this approach is its generality: you can apply it to any system of interrelations.
 
 You can imagine any outcome as the result of a system, map the system with your evolving SSM and build a decision-making framework to influence that outcome.
-
-Some examples of outcomes in a business context:
-
-* The price you pay for an Uber ride
-* The recommendations you receive on Amazon
-* The value of a stock in 3 months
-
-Some examples of outcomes in your personal life:
-
-* Getting a promotion
-* Your dog urinating indoors (again)
-* Conceiving a child
-* Retiring at 30
-* Becoming an advanced surfer
 
 Each of these is the result of system of observable and unobservable causal relationships.
 
@@ -107,4 +93,18 @@ Occam's razor - easier to reason up then reduce down
 
 Alternatives
 
-##
+## 
+
+Some examples of outcomes in a business context:
+
+* The price you pay for an Uber ride
+* The recommendations you receive on Amazon
+* The value of a stock in 3 months
+
+Some examples of outcomes in your personal life:
+
+* Getting a promotion
+* Your dog urinating indoors (again)
+* Conceiving a child
+* Retiring at 30
+* Becoming an advanced surfer
