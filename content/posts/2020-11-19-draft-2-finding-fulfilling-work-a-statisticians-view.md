@@ -53,27 +53,43 @@ Then we take the SSM and collide it with the chaotic, real world and ask "what c
 
 As we build out the model, it is important to validate your modelling decisions. We might go though several iterations of a model on paper but once we have something "good enough", we should evaluate it using real-world data. Benchmarking focuses the modeller on quantifying the gap between the model's performance and the necessary level of performance required to be "good enough". If the gap can be closed then the solution is technically feasible but for many problems this is simply not possible.
 
+(discarding your original model)
+
 **An example: Light as a wave versus light as a particle** 
 
 **Dynamic pricing as a queue**
 
-## So What
+## So What...
 
-The power of this approach is that is you can us
+The subtle power of this approach is in its generality: you can apply it to any system of interrelations.
 
-Once I internalised this method of thinking, it dawned on me how it is both a method to build statistical models but also mental models.
+You can imagine any outcome as the result of a system, map the system with your evolving SSM and build a decision-making framework to influence that outcome.
 
-What I have described is a good approach for building statistical models but its use does not stop their.
+Some examples of outcomes in your personal life:
+
+* Getting a promotion
+* Your dog urinating indoors (again)
+* Conceiving a child
+* Retiring at 30
+* Becoming an advanced surfer
+
+Each of these is the result of system of observable and unobservable causal relationships. 
+
+Another useful by-product of evolving an SSM is the generation of unexpected insights.
+
+Through this process of positing a model and probing "why won't it work?", we engage our mind in a way that leverages our vast experiential knowledge of the world. This knowledge tends to be encoded in our intuition in specific domains - mostly sitting below consciousness. By bringing it to the level of conscious reasoning we are able to connect disparate domains for greater leverage.
+
+Tool makers
+
+Let's use surfing as an example. Most beginner surfers tend to make a common mistake - they position themselves at a part of the wave's face which does not have enough power. No wave power means no speed means no chance of standing up. Left to their own devices, novice surfers take some time to build up the intuition to take the wave near the "peak" - where the wave first starts to break and where the most force production occurs.
+
+Let's create a simple model of a surfer catching a wave. Firstly, we have a human with a board. A wave approaches. We freeze the wave in time at the point when it first starts to break. We note that the wave is steepest at the peak and then decreases in slope the further away from the peak we go........
 
 
 
 Reasoning up as probing tool
 
-****
-
 **Why do competitors exist**
-
-is my preferred approach to evolving successful models. However can also act as a probing tool to learn insights about the world.
 
 The use of models as a probing tool is the subject of this article.
 
@@ -84,10 +100,6 @@ There are many ways that we acquire knowledge about the world: randomised contro
 Much of our experiencial knowledge 
 
 is it easier to ask why won't this work vs create something 
-
-During my years of building machine learning models
-
-
 
 ## A Simple Model of Experience-Induced Fulfilment
 
