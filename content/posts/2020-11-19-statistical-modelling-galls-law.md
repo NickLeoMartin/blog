@@ -57,7 +57,7 @@ In this example, rider waiting times are soaring to 30 minutes a trip because of
 
 If we step back and squint, we can view this problem as a queue with riders lining up and being served at a certain rate by the pool of drivers. This is great luck because queues are well studied in the field of statistics!
 
-
+Running off to our library, we dust off our a tome on [Queuing Theory](https://en.wikipedia.org/wiki/Queueing_theory) and recognise that this is an M/M/c-type queue.
 
 
 
