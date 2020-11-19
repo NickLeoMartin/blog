@@ -2,7 +2,7 @@
 template: post
 title: The Evolution of a Stupidly Simple Model
 slug: the-evolution-of-a-stupidly-simple-model
-draft: true
+draft: false
 date: 2020-11-19T13:21:19.354Z
 description: >-
   There is no hope that your statistical model will perfectly predict and
