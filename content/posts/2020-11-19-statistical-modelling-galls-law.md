@@ -43,7 +43,9 @@ So how can we model this system of pricing?
 
 Let's assume there is only one route from "A" to "B". There are many riders that request trips at a consistent rate and many drivers that are either offline, waiting or in-transit with a rider. At $10 a ride, the consistent demand for trips is adequately supplied by just enough drivers, with a 3 minute waiting time. Drivers want to maximise the amount they earn for their time and will therefore become more active if prices increase. Riders will also accept higher prices to avoid high waiting times. This is our SSM.
 
-Now we collide our model with the world - _what happens if there is a big concert playing tonight downtown at "B" and rider demand spikes?_
+Now we collide our model with the world.
+
+_World: "what happens if there is a big concert playing tonight downtown at "B" and rider demand spikes?"_
 
 This violates our model's assumption that riders request at a consistent rate. Now we have many riders and not enough available drivers. We can quantify rider dissatisfaction using waiting times - the time between when they request a ride to when they are picked up by the driver.
 
@@ -51,17 +53,23 @@ In this example, rider waiting times are soaring to 30 minutes a trip because of
 
 This is bad. Our model appears to be brittle. We need to expand it to deal with these dynamics.
 
-If we step back and squint, we can view this problem as a queue with riders lining up and being served at a certain rate by the pool of drivers. This is great luck because queues are well studied in the field of statistics!
+If we step back and squint, we can view this problem as a queue with riders lining up and being served at a certain rate by the pool of drivers. This is great luck because queues are well-studied in the field of statistics!
 
 Running off to our library, we dust off our a tome on [Queuing Theory](https://en.wikipedia.org/wiki/Queueing_theory) and recognise that this is an M/M/c-type queue (c=1 is our model). Now we can apply some maths and infer how many drivers we need to get the queue waiting times down to something reasonable (say 5 minutes).
 
 To get enough drivers active to meet demand, we will temporarily raise the price of trips from "A" to "B" to $15 and notify drivers of the 1.5x increase. According to our model, they will seek to maximise the amount they earn for their time and are incentivised to work now for $15 rather than $10 later. They start driving and waiting times will diminish.
 
-Mmm but what if we had set the price at $12 or $20?
+_World: "mmm but what if we had set the price at $12 or $20?"_
 
 The former might have not reduced waiting times enough and the later may have killed rider demand in favour of other transport options. Perhaps if our system experiences regular demand shocks, we can learn how much we need to multiple the trip's price to engage more drivers and keep waiting times at an acceptable level. This is well-studied concept in economics, [price elasticity](https://en.wikipedia.org/wiki/Elasticity_(economics)), so our odds of doing this well seem strong.
 
-Our stupidly simple system has evolved to handle adaptive user behaviour in our marketplace. Pretty cool.
+_World: "errr but how will this handle the infinite possible combinations of routes and the thousands of different cities that our platform will be active in?"_
+
+_(pauses to think and bite nails...)_
+
+Well...queues and price elasticity are only concerned with waiting times for riders and a pool of drivers. Geography is not critical, so we might as well define an arbitrary region and have the waiting times in that area represent one pool of drivers and one queue. We can be fancy with how we define a region, choosing a low or a high resolution, but ultimately all we are doing is horizontally scaling out the number of queues to encompass the globe.
+
+Our stupidly simple model has evolved to handle adaptive user behaviour in our marketplace. Pretty cool.
 
 ## So What...
 
@@ -96,7 +104,5 @@ Occam's razor - easier to reason up then reduce down
 (example of leveraging intuition in new domains)
 
 Alternatives
-
-
 
 ##
