@@ -33,7 +33,7 @@ The pragmatic view is to create something that is "good enough". A system that c
 
 ## The Trick: Build A Stupidly Simple Model
 
-During my years of building and shipping statistical models that collided with the real world, I internalised an approach which is best summed up by "Gall's Law":
+During my years of building and shipping statistical models that collided with the real world, I internalised a systems thinking approach which is best summed up by "Gall's Law":
 
 > A complex system that works is invariably found to have evolved from a simple system that worked. 
 >
@@ -58,6 +58,8 @@ As we build out the model, it is important to validate your modelling decisions.
 **Dynamic pricing as a queue**
 
 ## So What
+
+The power of this approach is that is you can us
 
 Once I internalised this method of thinking, it dawned on me how it is both a method to build statistical models but also mental models.
 
