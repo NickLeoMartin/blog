@@ -61,7 +61,7 @@ If we step back and squint, we can view this problem as a queue with riders lini
 
 Running off to our library, we dust off our a tome on [Queuing Theory](https://en.wikipedia.org/wiki/Queueing_theory) and recognise that this is an M/M/c-type queue (c=1 is our model). Now we can apply some maths and infer how many drivers we need to get the queue waiting times down to something reasonable (say 5 minutes).
 
-To get enough drivers active to meet demand, we will temporarily raise the price of trips from "A" to "B" to $15 and notify drivers of the 1.5x increase. According to our model, they will seek to maximise the amount they earn for their time and are incentivised to work now for $15 rather than $10 later. They start driving and waiting times will diminish.
+To get enough drivers active to satisfy demand, we will temporarily raise the price of trips from "A" to "B" to $15 and notify drivers of the 1.5x increase. According to our model, they will seek to maximise the amount they earn for their time and are incentivised to work now for $15 rather than $10 later. They start driving and waiting times will diminish.
 
 _World: "mmm but what if we had set the price at $12 or $20?"_
 
