@@ -63,11 +63,11 @@ _World: "mmm but what if we had set the price at $12 or $20?"_
 
 The former might have not reduced waiting times enough and the later may have killed rider demand in favour of other transport options. Perhaps if our system experiences regular demand shocks, we can learn how much we need to multiple the trip's price to engage more drivers and keep waiting times at an acceptable level. This is well-studied concept in economics, [price elasticity](https://en.wikipedia.org/wiki/Elasticity_(economics)), so our odds of doing this well seem strong.
 
-_World: "errr but how will this handle the infinite possible combinations of routes and the thousands of different cities that our platform will be active in?"_
+_World: "errr but how will this handle the thousands of different cities that our platform will be active in?"_
 
-_(pauses to think and bite nails...)_
+_...pauses to think and bite nails..._
 
-Well...queues are only concerned with waiting times for riders and the pool of drivers. Geography and route specifics are not critical. We might as well define an arbitrary "zone" and designate all activity in that "zone" to one queue (a city perhaps). We can be fancy with our definition, choosing a low or a high resolution, but ultimately all we are doing is horizontally scaling out the number of queues and price elasticity models to encompass the globe.
+Well...queues are only concerned with waiting times for riders and the pool of drivers. Price elasticity is only concerned with the pool of drivers. Geography is not critical. We might as well define an arbitrary "zone" and designate all activity in that "zone" to one queue (a city perhaps). We can be fancy with our definition, choosing a low or a high resolution, but ultimately all we are doing is horizontally scaling out the number of queues and price elasticity models to encompass the globe.
 
 This dance can go on and on - we could consider how to price the fare for any arbitrary trip, decide how we match drivers to riders, plan the most efficient route for the driver etc.
 
