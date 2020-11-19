@@ -1,7 +1,7 @@
 ---
 template: post
 title: The Evolution of a Stupidly Simple Model
-slug: the-evolution-of-a-stupidly-simple-model
+slug: /posts/the-evolution-of-a-stupidly-simple-model
 draft: false
 date: 2020-11-19T13:21:19.354Z
 description: >-
