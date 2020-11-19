@@ -1,7 +1,7 @@
 ---
 template: post
 title: The Evolution of a Stupidly Simple Model
-slug: /posts/the-evolution-of-a-stupidly-simple-model
+slug: /posts/the-evolution-of-a-stupidly-simple-model/
 draft: false
 date: 2020-11-19T13:21:19.354Z
 description: >-
@@ -9,6 +9,10 @@ description: >-
   flawlessly act in a complex world. So what can we do in response to this
   brutal truth?
 category: Modelling
+tags:
+  - Statistics
+  - Machine Learning
+  - Mental Models
 ---
 Statistical modellers are often faced with the challenge of creating systems that interacts with a complex world. This could be generating recommendations to influence user buying behaviour, predicting future fluctuations to better time the purchase of stocks or route planning for autonomous vehicles in high traffic.
 
