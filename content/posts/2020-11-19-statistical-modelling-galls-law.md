@@ -41,7 +41,7 @@ A comparatively high price would reduce riders demand but increase the drivers w
 
 So how can we model this system of pricing?
 
-Let's assume there is only one route from "A" to "B". There are many riders that request trips at a consistent rate and many drivers that are either offline, waiting or in-transit with a rider. At $10 a ride, the consistent demand for trips is adequately supplied by just enough drivers, with a 3 minute waiting time. Drivers want to maximise the amount they earn for their time and will therefore become more active if prices increase. Riders will also accept higher prices to avoid high waiting times.
+Let's assume there is only one route from "A" to "B". There are many riders that request trips at a consistent rate and many drivers that are either offline, waiting or in-transit with a rider. At $10 a ride, the consistent demand for trips is adequately supplied by just enough drivers, with a 3 minute waiting time. Drivers want to maximise the amount they earn for their time and will therefore become more active if prices increase. Riders will also accept higher prices to avoid high waiting times. This is our SSM.
 
 Now we collide our model with the world - _what happens if there is a big concert playing tonight downtown at "B" and rider demand spikes?_
 
