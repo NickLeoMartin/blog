@@ -2,7 +2,7 @@
 template: post
 title: Why SCRUM Frustrates Data Scientists
 slug: why-scrum-frustrates-data-scientists
-draft: false
+draft: true
 date: 2020-02-16T11:08:13.022Z
 description: >-
   Open-ended research is part and parcel of Data Science. How do we reconcile
