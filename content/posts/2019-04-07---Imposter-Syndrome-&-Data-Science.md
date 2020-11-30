@@ -2,7 +2,7 @@
 template: post
 title: Imposter Syndrome & Data Science
 slug: /posts/imposter-syndrome-&-data-science/
-draft: false
+draft: true
 date: '2019-04-07T23:46:37.121Z'
 description: >-
   Data Science sits at the intersection of several fields. No matter your
